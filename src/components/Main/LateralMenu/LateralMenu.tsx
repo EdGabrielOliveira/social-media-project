@@ -6,7 +6,7 @@ import Foto from "../../../../public/avatar.jpg";
 
 export default function LateralMenu() {
   return (
-    <div className="h-screen w-[22rem] flex flex-col bg-gray-100 dark:bg-gray-900 text-lg  pt-10  justify-start pl-4 pr-4 overflow-auto overflow">
+    <div className="h-screen min-w-[22rem] xs:hidden sm:hidden md:hidden lg:flex flex flex-col bg-gray-100 dark:bg-gray-900 text-lg  pt-10  justify-start pl-4 pr-4 overflow-auto overflow">
       <div className="flex flex-col justify-center">
         <div>
           <Menu />

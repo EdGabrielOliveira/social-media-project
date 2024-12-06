@@ -28,7 +28,7 @@ export default function UserPost({
   postImg,
 }: UsersMenuProps) {
   return (
-    <div className="bg-gray-200/50 dark:bg-gray-900 p-6 h-full rounded-xl w-[36rem]">
+    <div className="bg-gray-200/50 dark:bg-gray-900 p-6 h-full rounded-xl xs:max-w-[24rem] sm:max-w-[26rem] md:max-w-[28rem] lg:max-w-[32rem] xl:max-w-[36rem] items-center justify-center">
       <ul>
         <li className="flex flex-col gap-2 items-start p-1 rounded-xl">
           <div className="relative flex flex-row gap-4">
@@ -46,7 +46,7 @@ export default function UserPost({
                     <FcApproval className="absolute bottom-0 right-0 text-[20px]" />
                   )}
                 </div>
-                <div className="flex items-center justify-between w-[28.5rem]">
+                <div className="flex items-center justify-between sm:max-w-[26rem] md:max-w-[28rem] lg:max-w-[32rem] xl:max-w-[36rem]">
                   <div className="flex flex-col">
                     <div className="flex justify-start items-center gap-2 m-0 p-0">
                       <h1 className="text-[18px] text-gray-600 dark:text-gray-200 font-semibold">
@@ -66,17 +66,19 @@ export default function UserPost({
               </div>
 
               <div className="flex flex-col"></div>
-              <p className="text-gray-600 dark:text-gray-200 w-[32rem]">{comment}</p>
+              <p className="text-gray-600 text-wrap dark:text-gray-200 xs:max-w-[20rem] sm:max-w-[22rem] md:max-w-[24rem] lg:max-w-[28rem] xl:max-w-[32rem]">
+                {comment}
+              </p>
             </div>
           </div>
           <div className="flex flex-col gap-4">
-            <Image
-              src={postImg}
-              alt={"Imagem do post"}
-              width={600}
-              height={500}
-              className="rounded-xl w-[32rem] h-[30rem] shadow-lg shadow-gray-500 dark:shadow-gray-950"
-            />
+            <div className="flex xs:max-w-[20rem] sm:max-w-[22rem] md:max-w-[24rem] lg:max-w-[28rem] xl:max-w-[32rem]">
+              <Image
+                src={postImg}
+                alt="Imagem do post"
+                className="flex flex-1 rounded-xl shadow-lg shadow-gray-500 dark:shadow-gray-950"
+              />
+            </div>
             <PostIntegrations />
           </div>
         </li>

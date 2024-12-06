@@ -6,7 +6,7 @@
 
 @layer components {
   .buttons-react {
-    @apply flex items-center gap-1 text-lg border p-2 pr-4 pl-4 bg-gray-200 border-gray-300/50 dark:border-gray-800 rounded-full dark:bg-gray-950 
+    @apply flex items-center gap-1 text-lg border p-2 pr-4 pl-4 xs:p-1 sm:p-1 md:p-2 lg:p-2 lg:pl-2 lg:pr-2 xl:p-2 xl:pl-4 xl:pr-4 bg-gray-200 border-gray-300/50 dark:border-gray-800 rounded-full dark:bg-gray-950 
     hover:bg-gray-300 hover:dark:bg-gray-900 hover:scale-95 hover:dark:scale-[98%] duration-200 delay-75 dark:duration-200 dark:delay-75;
   }
 }

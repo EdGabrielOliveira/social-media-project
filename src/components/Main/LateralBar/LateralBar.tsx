@@ -16,7 +16,7 @@ import LateralTooltips from "./LateralTooltips";
 
 export default function LateralBar() {
   return (
-    <div>
+    <div className="xs:hidden sm:flex md:flex lg:flex xl:flex">
       <div
         className="h-screen flex justify-center rounded-l-none bg-gray-100 w-[5rem] border-r border-gray-200
       dark:bg-gray-900 dark:border-gray-800"

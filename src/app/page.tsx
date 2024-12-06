@@ -19,7 +19,9 @@ export default function page() {
           <Header />
           <div className="flex flex-row">
             <Main />
-            <JobsInfos />
+            <div className="md:flex xs:hidden">
+              <JobsInfos />
+            </div>
           </div>
           <span className="hidden">
             <Footer />
