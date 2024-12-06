@@ -11,8 +11,11 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        primary: "var(--primary)",
+        secondary: "var(--secondary)",
       },
     },
   },
+  darkMode: "class", // Adicione esta linha para habilitar o modo escuro baseado em classes
   plugins: [],
 } satisfies Config;

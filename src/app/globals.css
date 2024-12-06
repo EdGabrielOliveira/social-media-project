@@ -4,6 +4,59 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .buttons-react {
+    @apply flex items-center gap-1 text-lg border p-2 pr-4 pl-4 bg-gray-200 border-gray-300/50 dark:border-gray-800 rounded-full dark:bg-gray-950 
+    hover:bg-gray-300 hover:dark:bg-gray-900 hover:scale-95 hover:dark:scale-[98%] duration-200 delay-75 dark:duration-200 dark:delay-75;
+  }
+}
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+  --primary: #1f2937; /* gray-800 */
+  --secondary: #4b5563; /* gray-600 */
+}
+
+.dark {
+  --background: #1f2937; /* gray-800 */
+  --foreground: #ffffff;
+  --primary: #d1d5db; /* gray-300 */
+  --secondary: #9ca3af; /* gray-400 */
+}
+
+/* Estilizar a barra de rolagem (container) */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 12px;
+}
+
+/* Estilizar o fundo da barra de rolagem */
+::-webkit-scrollbar-track {
+  background: #e5e7eb;
+  border-radius: 0px;
+}
+
+/* Estilizar o thumb (parte que se move) */
+::-webkit-scrollbar-thumb {
+  background: #6b7280;
+  border-radius: 4px;
+}
+
+/* Estilizar o thumb quando estiver sendo clicado ou em hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #8c909c;
+}
+
+/* Estilizar a barra de rolagem no tema escuro */
+.dark ::-webkit-scrollbar-track {
+  background: #1f2937; /* gray-700 */
+}
+
+.dark ::-webkit-scrollbar-thumb {
+  background: #e5e7eb; /* gray-400 */
+}
+
 body {
   font-family: "Poppins", sans-serif;
 }
