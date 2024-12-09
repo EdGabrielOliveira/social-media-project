@@ -2,7 +2,7 @@ import React from "react";
 import Menu from "./ItensMenu/Menu";
 import UsersMenu from "./ItensMenu/UsersMenu";
 
-import Foto from "../../../../public/avatar.jpg";
+import Foto from "../../../../../public/avatar.jpg";
 
 export default function LateralMenu() {
   return (

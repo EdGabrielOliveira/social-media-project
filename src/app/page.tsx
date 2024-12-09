@@ -1,11 +1,11 @@
 "use client";
-import Footer from "@/components/Footer/Footer";
-import Header from "@/components/Header/Header";
-import LateralMenu from "@/components/Main/LateralMenu/LateralMenu";
-import LateralBar from "@/components/Main/LateralBar/LateralBar";
-import Main from "@/components/Main/Main.tsx";
+
+import Header from "../components/User/Header/Header";
+import LateralMenu from "../components/User/Main/LateralMenu/LateralMenu";
+import LateralBar from "../components/User/Main/LateralBar/LateralBar";
+import Main from "../components/User/Main/Main.tsx";
 import React from "react";
-import JobsInfos from "@/components/Main/JobsInfos/JobsInfos";
+import JobsInfos from "../components/User/Main/JobsInfos/JobsInfos";
 
 export default function page() {
   return (
@@ -23,9 +23,6 @@ export default function page() {
               <JobsInfos />
             </div>
           </div>
-          <span className="hidden">
-            <Footer />
-          </span>
         </div>
       </div>
     </main>

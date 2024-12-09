@@ -4,7 +4,7 @@ import { FcComments, FcLike, FcShare } from "react-icons/fc";
 export default function PostIntegrations() {
   return (
     <div className="flex flex-1">
-      <ul className="flex w-full items-center justify-center gap-4 text-gray-600 dark:text-gray-300">
+      <ul className="flex w-full items-center justify-evenly  gap-4 text-white dark:text-gray-300">
         <button className="buttons-react">
           <span className="text-xl">
             <FcLike />

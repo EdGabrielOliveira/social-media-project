@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React, { useState } from "react";
 import { VscChevronDown, VscGlobe, VscLock, VscOrganization } from "react-icons/vsc";
-import Avatar from "../../../../../public/avatar.jpg";
+import Avatar from "../../../../../../public/avatar.jpg";
 
 interface OptionProps {
   value: string;

@@ -6,9 +6,20 @@
 
 @layer components {
   .buttons-react {
-    @apply flex items-center gap-1 text-lg border p-2 pr-4 pl-4 xs:p-1 sm:p-1 md:p-2 lg:p-2 lg:pl-2 lg:pr-2 xl:p-2 xl:pl-4 xl:pr-4 bg-gray-200 border-gray-300/50 dark:border-gray-800 rounded-full dark:bg-gray-950 
-    hover:bg-gray-300 hover:dark:bg-gray-900 hover:scale-95 hover:dark:scale-[98%] duration-200 delay-75 dark:duration-200 dark:delay-75;
+    @apply flex items-center justify-center gap-1 text-lg p-2 pr-4 pl-4 xs:p-1 sm:p-1 md:p-1 lg:p-1 lg:pl-2 lg:pr-2 xl:p-1 xl:pl-2 xl:pr-2 bg-transparent text-gray-500 dark:text-gray-400 rounded-xl
+    hover:scale-95 hover:dark:scale-95 duration-200 delay-75 dark:duration-200 dark:delay-75  dark:hover:bg-gray-800 hover:bg-gray-300;
   }
+  .landing-nav {
+    @apply hover:scale-95 pl-2 pr-2 hover:bg-gray-100 rounded-xl p-1 cursor-pointer;
+  }
+}
+
+/* custom-swiper.css */
+.swiper-pagination-bullet {
+  background: #4f46e5;
+}
+.swiper-pagination-bullet-active {
+  background: #4f46e5 !important;
 }
 
 :root {
@@ -54,7 +65,7 @@
 }
 
 .dark ::-webkit-scrollbar-thumb {
-  background: #e5e7eb; /* gray-400 */
+  background: #030712; /* gray-400 */
 }
 
 body {

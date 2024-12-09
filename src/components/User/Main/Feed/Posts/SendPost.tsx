@@ -1,7 +1,7 @@
 import React from "react";
 
 import ModalSendPost from "./ModalSendPost";
-import Avatar from "../../../../../public/avatar.jpg";
+import Avatar from "../../../../../../public/avatar.jpg";
 import Image from "next/image";
 
 export default function SendPost() {

@@ -11,7 +11,7 @@ import {
   FcSettings,
 } from "react-icons/fc";
 
-import Avatar from "../../../../public/avatar.jpg";
+import Avatar from "../../../../../public/avatar.jpg";
 import LateralTooltips from "./LateralTooltips";
 
 export default function LateralBar() {

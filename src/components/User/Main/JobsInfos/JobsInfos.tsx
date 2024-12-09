@@ -1,7 +1,7 @@
 import React from "react";
 import OpenJobsList from "./OpenJobsList";
 
-import Empresa from "../../../../public/Pepsi-logo.png";
+import Empresa from "../../../../../public/Pepsi-logo.png";
 
 export default function JobsInfos() {
   return (
