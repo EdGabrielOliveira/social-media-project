@@ -12,14 +12,15 @@
   .landing-nav {
     @apply hover:scale-95 pl-2 pr-2 hover:bg-gray-100 rounded-xl p-1 cursor-pointer;
   }
-}
-
-/* custom-swiper.css */
-.swiper-pagination-bullet {
-  background: #4f46e5;
-}
-.swiper-pagination-bullet-active {
-  background: #4f46e5 !important;
+  .input-field {
+    @apply p-2 pr-4 pl-4 w-[20rem] rounded-xl bg-gray-100 outline-none focus:outline-none shadow-md shadow-gray-200;
+  }
+  .button-call {
+    @apply text-white font-semibold bg-green-600 rounded-lg hover:bg-green-700 p-2 pr-4 pl-4 cursor-pointer;
+  }
+  .button-underline {
+    @apply text-gray-600 p-2 hover:underline hover:underline-offset-2 items-center;
+  }
 }
 
 :root {
@@ -70,4 +71,8 @@
 
 body {
   font-family: "Poppins", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
 }

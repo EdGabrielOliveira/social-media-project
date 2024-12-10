@@ -5,9 +5,9 @@ import Image from "next/image";
 
 export default function Hero() {
   return (
-    <div className="w-full pr-40 pl-40">
-      <div className="flex w-full justify-evenly items-center h-[82vh] gap-44">
-        <div className="flex flex-col items-start gap-8 pl-20 pt-20">
+    <div className="w-full h-[96vh] items-center justify-center pt-80 pr-40 pl-40">
+      <div className="flex w-full justify-evenly gap-44">
+        <div className="flex flex-col items-start justify-start gap-8 pl-20 pt-20">
           <div className="flex flex-col gap-2 ">
             <h1 className="text-4xl font-semibold text-gray-600">MarketMates</h1>
             <h1 className="text-2xl text-gray-600 font-medium">
@@ -17,7 +17,7 @@ export default function Hero() {
               Crie, colabore e impacte com MarketMates.
             </h2>
           </div>
-          <button className="bg-green-600 p-2 pr-4 pl-4 rounded-xl text-gray-100 font-semibold">
+          <button className="button-call justify-center items-center">
             Cadastrar-se agora!
           </button>
         </div>

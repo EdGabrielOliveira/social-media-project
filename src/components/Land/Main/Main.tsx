@@ -7,10 +7,16 @@ import Feedback from "./Feedback/Feedback";
 
 export default function Main() {
   return (
-    <div className="flex flex-col h-auto gap-10 w-full justify-center items-center">
-      <Hero />
-      <Benefits />
-      <Feedback />
+    <div className="flex flex-col h-auto gap-10 w-full justify-center items-center scroll-smooth">
+      <div id="inicio" className="w-full">
+        <Hero />
+      </div>
+      <div id="benefits" className="w-full">
+        <Benefits />
+      </div>
+      <div id="feedback" className="w-full">
+        <Feedback />
+      </div>
     </div>
   );
 }
