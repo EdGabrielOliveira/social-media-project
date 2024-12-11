@@ -1,7 +1,7 @@
-import Footer from "@/components/Land/Footer/Footer";
-import Header from "@/components/Land/Header/Header";
-import Main from "@/components/Land/Main/Main";
 import React from "react";
+import Header from "./components/Header/Header";
+import Main from "./components/Main/Main";
+import Footer from "./components/Footer/Footer";
 
 export default function page() {
   return (

@@ -18,8 +18,12 @@
         "name": "next"
       }
     ],
+    "baseUrl": ".", // Define a raiz do projeto como ponto de partida
     "paths": {
-      "@/*": ["./src/*"]
+      "@public/*": ["public/*"], // Alias para a pasta public
+      "@components/*": ["app/components/*"], // Exemplo para componentes
+      "@utils/*": ["app/utils/*"], // Exemplo para funções utilitárias
+      "@styles/*": ["app/styles/*"] // Exemplo para estilos globais
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

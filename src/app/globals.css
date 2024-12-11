@@ -19,7 +19,7 @@
     @apply text-white font-semibold bg-green-600 rounded-lg hover:bg-green-700 p-2 pr-4 pl-4 cursor-pointer;
   }
   .button-underline {
-    @apply text-gray-600 p-2 hover:underline hover:underline-offset-2 items-center;
+    @apply text-gray-600 p-2 hover:underline hover:underline-offset-2 items-center cursor-pointer;
   }
 }
 
