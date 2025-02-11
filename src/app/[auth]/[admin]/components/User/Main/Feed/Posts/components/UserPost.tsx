@@ -72,11 +72,11 @@ export default function UserPost({
             </div>
           </div>
           <div className="flex flex-col gap-4">
-            <div className="flex xs:max-w-[20rem] sm:max-w-[22rem] md:max-w-[24rem] lg:max-w-[28rem] xl:max-w-[32rem]">
+            <div className="flex xs:max-w-[18rem] sm:max-w-[22rem] md:max-w-[24rem] lg:max-w-[28rem] xl:max-w-[32rem]">
               <Image
                 src={postImg}
                 alt="Imagem do post"
-                className="flex flex-1 rounded-xl shadow-lg shadow-gray-500 dark:shadow-gray-950"
+                className="flex flex-1 h-[28.6rem] rounded-xl shadow-lg shadow-gray-500 dark:shadow-gray-950"
               />
             </div>
             <PostIntegrations />

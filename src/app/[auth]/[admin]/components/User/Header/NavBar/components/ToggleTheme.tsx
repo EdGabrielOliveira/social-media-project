@@ -17,7 +17,7 @@ export default function ToggleTheme() {
 
   return (
     <div className="flex items-center">
-      <label className="relative scale-75 dark:bg-gray-950 inline-block h-8 w-14 cursor-pointer rounded-full bg-gray-300 transition [-webkit-tap-highlight-color:_transparent] has-[:checked]:bg-gray-900">
+      <label className="relative scale-75 dark:bg-gray-950 inline-block h-8 w-14 cursor-pointer rounded-full bg-gray-300 transition [-webkit-tap-highlight-color:_transparent] has-[:checked]:bg-gray-300">
         <input
           className="peer sr-only"
           id="AcceptConditions"
