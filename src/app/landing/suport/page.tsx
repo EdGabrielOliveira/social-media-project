@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function page() {
@@ -42,9 +43,9 @@ export default function page() {
             />
           </div>
           <div className="flex justify-between items-center">
-            <a href="/landing" className="button-underline">
+            <Link href="/landing/" className="button-underline">
               Voltar
-            </a>
+            </Link>
             <a className="button-call w-[10rem] text-center">Enviar</a>
           </div>
         </form>
