@@ -37,42 +37,14 @@
   --secondary: #9ca3af; /* gray-400 */
 }
 
-/* Estilizar a barra de rolagem (container) */
-::-webkit-scrollbar {
-  width: 10px;
-  height: 12px;
-}
-
-/* Estilizar o fundo da barra de rolagem */
-::-webkit-scrollbar-track {
-  background: #e5e7eb;
-  border-radius: 0px;
-}
-
-/* Estilizar o thumb (parte que se move) */
-::-webkit-scrollbar-thumb {
-  background: #6b7280;
-  border-radius: 4px;
-}
-
-/* Estilizar o thumb quando estiver sendo clicado ou em hover */
-::-webkit-scrollbar-thumb:hover {
-  background: #8c909c;
-}
-
-/* Estilizar a barra de rolagem no tema escuro */
-.dark ::-webkit-scrollbar-track {
-  background: #1f2937; /* gray-700 */
-}
-
-.dark ::-webkit-scrollbar-thumb {
-  background: #030712; /* gray-400 */
-}
-
 body {
   font-family: "Poppins", sans-serif;
 }
 
-html {
-  scroll-behavior: smooth;
+.custom-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.custom-scroll {
+  scrollbar-width: none;
 }

@@ -1,7 +1,7 @@
 "use client";
 
 import Header from "./components/User/Header/Header";
-import Status from "./components/User/Main/Feed/Posts/components/Status/Status";
+
 import JobsInfos from "./components/User/Main/JobsInfos/JobsInfos";
 import LateralBar from "./components/User/Main/LateralBar/LateralBar";
 import LateralMenu from "./components/User/Main/LateralMenu/LateralMenu";
@@ -17,11 +17,9 @@ export default function page() {
           <LateralMenu />
         </div>
         <div className="flex flex-col w-full">
-          <div className="xs:flex sm:hidden">
-            <Status />
-          </div>
+          <div className="xs:flex sm:hidden"></div>
           <Header />
-          <div className="flex flex-row">
+          <div className="flexflex-row">
             <Main />
             <div className="md:flex xs:hidden">
               <JobsInfos />

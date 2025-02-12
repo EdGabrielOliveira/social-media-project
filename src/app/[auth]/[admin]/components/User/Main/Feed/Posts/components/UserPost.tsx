@@ -26,11 +26,11 @@ export default function UserPost({
   postImg,
 }: UsersMenuProps) {
   return (
-    <div className="bg-gray-200/50 dark:bg-gray-900 p-6 h-full rounded-xl xs:max-w-[24rem] sm:max-w-[26rem] md:max-w-[28rem] lg:max-w-[32rem] xl:max-w-[36rem] items-center justify-center">
+    <div className="bg-gray-200/50 dark:bg-gray-900 p-6 h-full rounded-xl xs:max-w-[40rem] sm:max-w-[26rem] md:max-w-[28rem] lg:max-w-[32rem] xl:max-w-[36rem] items-center justify-center">
       <ul>
         <li className="flex flex-col gap-2 items-start p-1 rounded-xl">
           <div className="relative flex flex-row gap-4">
-            <div className="flex flex-col gap-2">
+            <div className="flex flex-col xs:gap-0 sm:gap-1 md:gap-2">
               <div className="flex gap-2">
                 <div className="flex relative xs:scale-75 sm:scale-100">
                   <Image
@@ -47,7 +47,7 @@ export default function UserPost({
                 <div className="flex items-center justify-between sm:max-w-[26rem] md:max-w-[28rem] lg:max-w-[32rem] xl:max-w-[36rem]">
                   <div className="flex flex-col">
                     <div className="flex justify-start items-center gap-2 m-0 p-0">
-                      <h1 className="sm:text-[18px] xs:text-[14px]  text-gray-600 dark:text-gray-200 font-semibold">
+                      <h1 className="sm:text-[18px] xs:text-[14px] text-gray-600 dark:text-gray-200 font-semibold">
                         {name}
                       </h1>
                       <p className="text-sm text-gray-400 sm:flex xs:hidden ">@{user}</p>
@@ -60,13 +60,13 @@ export default function UserPost({
               </div>
 
               <div className="flex flex-col"></div>
-              <p className="text-gray-600 text-wrap dark:text-gray-200 xs:max-w-[20rem] sm:max-w-[22rem] md:max-w-[24rem] lg:max-w-[28rem] xl:max-w-[32rem]">
+              <p className="text-gray-600 text-wrap dark:text-gray-200 w-full xs:pl-2 xs:text-[12px] sm:text-md md:text-[15px] xs:max-w-[36rem] sm:max-w-[22rem] md:max-w-[24rem] lg:max-w-[28rem] xl:max-w-[32rem]">
                 {comment}
               </p>
             </div>
           </div>
           <div className="flex flex-col gap-4">
-            <div className="flex xs:max-w-[20rem] sm:max-w-[22rem] md:max-w-[24rem] lg:max-w-[28rem] xl:max-w-[32rem]">
+            <div className="flex xs:max-w-[36rem] sm:max-w-[22rem] md:max-w-[24rem] lg:max-w-[28rem] xl:max-w-[32rem]">
               <Image
                 src={postImg}
                 alt="Imagem do post"
