@@ -1,20 +1,25 @@
 "use client";
 
 import Header from "./components/User/Header/Header";
+import Status from "./components/User/Main/Feed/Posts/components/Status/Status";
 import JobsInfos from "./components/User/Main/JobsInfos/JobsInfos";
 import LateralBar from "./components/User/Main/LateralBar/LateralBar";
 import LateralMenu from "./components/User/Main/LateralMenu/LateralMenu";
 import Main from "./components/User/Main/Main.tsx";
+import MobileBar from "./components/User/Main/MobileBar/MobileBar";
 
 export default function page() {
   return (
     <main className=" flex w-full h-screen p-0 m-0 overflow-hidden">
-      <div className="flex flex-row w-full">
+      <div className="flex flex-row w-full ">
         <div className="flex">
           <LateralBar />
           <LateralMenu />
         </div>
         <div className="flex flex-col w-full">
+          <div className="xs:flex sm:hidden">
+            <Status />
+          </div>
           <Header />
           <div className="flex flex-row">
             <Main />
@@ -22,6 +27,7 @@ export default function page() {
               <JobsInfos />
             </div>
           </div>
+          <MobileBar />
         </div>
       </div>
     </main>

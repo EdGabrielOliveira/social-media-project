@@ -55,7 +55,7 @@ export default function page() {
           </div>
         </div>
       </div>
-      <Link href="/landing" className="flex justify-center pt-2 button-underline">
+      <Link href="../" className="flex justify-center pt-2 button-underline">
         <p>Voltar para o inicio</p>
       </Link>
     </div>

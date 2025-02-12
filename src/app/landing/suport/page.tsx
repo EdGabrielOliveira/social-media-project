@@ -43,7 +43,7 @@ export default function page() {
             />
           </div>
           <div className="flex justify-between items-center">
-            <Link href="/landing/" className="button-underline">
+            <Link href="../" className="button-underline">
               Voltar
             </Link>
             <a className="button-call w-[10rem] text-center">Enviar</a>
