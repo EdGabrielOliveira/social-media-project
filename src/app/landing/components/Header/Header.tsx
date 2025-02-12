@@ -51,6 +51,9 @@ export default function Header() {
           <li className="landing-nav">
             <Link href="/landing/suport">Suporte</Link>
           </li>
+          <li className="landing-nav">
+            <Link href="/auth/admin/">Admin</Link>
+          </li>
         </ul>
         <div className="flex flex-row items-center gap-4">
           <Link href="/auth/login" className="button-underline">
