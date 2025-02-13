@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import React from "react";
+import MobileMenu from "./MobileMenu";
 
 export default function Header() {
   const scrollToSection = (id: string) => {
@@ -25,28 +26,31 @@ export default function Header() {
 
   return (
     <div>
-      <nav className="flex gap-10 justify-evenly p-10  w-full bg-white fixed z-50">
+      <nav className="flex gap-10 items-center justify-evenly md:p-10 xs:p-8 w-full bg-white md:fixed llg:fixed xl:fixed  z-10 xl:flex">
+        <div className="md:hidden sm:flex xs:flex">
+          <MobileMenu />
+        </div>
         <Link
-          href="/landing"
-          className="md:hidden lg:hidden xl:flex lg:text-2xl md:text-xl font-semibold text-gray-600 dark:text-gray-400 cursor-pointer"
+          href="../"
+          className="xl:flex xs:fllex hidde lg:text-2xl md:text-xl font-semibold text-gray-600 dark:text-gray-400 cursor-pointer"
         >
           MarketMates
         </Link>
-        <ul className="flex flex-row gap-6 text-gray-600 text-lg items-center">
+        <ul className="md:flex sm:hidden xs:hidden flex-row gap-6 text-gray-600 text-lg items-center">
           <li className="landing-nav">
-            <a href="inicio" onClick={(e) => handleClick(e, "inicio")}>
+            <Link href="inicio" onClick={(e) => handleClick(e, "inicio")}>
               Inicio
-            </a>
+            </Link>
           </li>
           <li className="landing-nav">
-            <a href="#benefits" onClick={(e) => handleClick(e, "benefits")}>
+            <Link href="#benefits" onClick={(e) => handleClick(e, "benefits")}>
               Recursos
-            </a>
+            </Link>
           </li>
           <li className="landing-nav">
-            <a href="#benefits" onClick={(e) => handleClick(e, "feedback")}>
+            <Link href="#benefits" onClick={(e) => handleClick(e, "feedback")}>
               Feedback
-            </a>
+            </Link>
           </li>
           <li className="landing-nav">
             <Link href="/landing/suport">Suporte</Link>
@@ -56,10 +60,16 @@ export default function Header() {
           </li>
         </ul>
         <div className="flex flex-row items-center gap-4">
-          <Link href="/auth/login" className="button-underline">
+          <Link
+            href="/auth/login"
+            className="button-underline underline text-green-600 gap-2 xs:flex md:hidden"
+          >
             Entrar
           </Link>
-          <Link href="/auth/register" className="button-call">
+          <Link href="/auth/login" className="button-underline xs:hidden md:flex">
+            Entrar
+          </Link>
+          <Link href="/auth/register" className="button-call xs:hidden md:flex">
             Cadastrar-se
           </Link>
         </div>

@@ -8,7 +8,9 @@ export default function LandingPage() {
     <div className="bg-gray-100 w-full flex flex-col flex-1">
       <Header />
       <Main />
-      <Footer />
+      <div>
+        <Footer />
+      </div>
     </div>
   );
 }
