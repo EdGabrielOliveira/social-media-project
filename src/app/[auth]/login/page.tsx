@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function page() {
   return (
     <div className="flex flex-1 flex-col w-full h-screen justify-center items-center bg-gray-100">
-      <div className="flex flex-col gap-4 bg-white pt-20 pr-20 pl-20 pb-10 items-center rounded-xl shadow-md shadow-gray300">
+      <div className="flex flex-col gap-4 bg-white pt-20 md:pr-20 md:pl-20 xs:pr-8 xs:pl-8 pb-10 items-center rounded-xl shadow-md shadow-gray300">
         <div className="flex flex-col justify-center items-center">
           <h1 className="text-2xl font-semibold text-gray-600">Entrar</h1>
           <p className="text-gray-400 text-sm">
@@ -22,7 +22,7 @@ export default function page() {
               <input
                 type="email"
                 placeholder="Digite seu E-mail"
-                className="input-field"
+                className="input-field md:w-full xs:w-[20rem]"
               />
             </div>
             <div className="flex flex-col">
@@ -30,7 +30,7 @@ export default function page() {
               <input
                 type="password"
                 placeholder="Digite sua Senha"
-                className="input-field"
+                className="input-field md:w-full xs:w-[20rem]"
               />
             </div>
           </div>
@@ -38,9 +38,9 @@ export default function page() {
             <button className="bg-green-600 hover:bg-green-700 p-2 w-full rounded-xl font-semibold text-white">
               Entrar
             </button>
-            <div className="flex justify-between">
+            <div className="flex md:flex-row xs:flex-col md:text-justify xs:text-center justify-between">
               <a className="button-underline">Esqueceu a senha?</a>
-              <Link href="/auth/register" className="button-underline">
+              <Link href="/auth/register" className="button-underline xs:text-green-600 xs:underline">
                 Criar conta
               </Link>
             </div>

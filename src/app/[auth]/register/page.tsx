@@ -14,7 +14,7 @@ export default function Page() {
   return (
     <div className="flex flex-1 flex-col w-full h-screen justify-center items-center bg-gray-100">
       <div className="flex flex-col items-center rounded-xl shadow-md shadow-gray300 bg-white">
-        <div className="flex flex-col gap-4 pt-10 pr-20 pl-20 pb-10">
+        <div className="flex flex-col gap-4 pt-10 md:pr-20 md:pl-20 xs:pl-8 xs:pr-8 pb-10">
           <div className="flex flex-col justify-center items-center">
             <h1 className="text-2xl font-semibold text-gray-600">Cadastrar-se</h1>
             <p className="text-gray-400 text-sm">
@@ -28,13 +28,14 @@ export default function Page() {
                 <input
                   type="text"
                   placeholder="Digite seu Nome"
-                  className="p-2 pr-4 pl-4 w-[20rem] rounded-xl bg-gray-100 outline-none focus:outline-none shadow-md shadow-gray-200"
+                  className="p-2 pr-4 pl-4 w-[20rem] rounded-xl bg-gray-100 outline-none focus:outline-none shadow-md shadow-gray-200 "
                 />
               </div>
               <div className="flex flex-col">
                 <label className="">Data de nascimento:</label>
                 <DatePicker
                   placeholderText="Selecione a data"
+                  locale={"pt-BR"}
                   selected={startDate}
                   onChange={(date: Date | null) => setStartDate(date)}
                   showMonthDropdown
