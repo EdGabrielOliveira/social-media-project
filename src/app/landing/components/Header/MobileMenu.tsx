@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FiMenu, FiX } from "react-icons/fi";
 import Link from "next/link";
+import { VscCallIncoming, VscClose, VscFeedback, VscGear, VscMenu } from "react-icons/vsc";
 
 export default function MobileMenu() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,9 +32,9 @@ export default function MobileMenu() {
     <nav className="relative">
       <button
         onClick={() => setIsOpen(!isOpen)}
-        className="p-2 text-gray-800 hover:bg-gray-200 rounded-md transition"
+        className="p-2 text-gray-600 hover:bg-gray-200 rounded-md transition"
       >
-        {isOpen ? <FiX size={24} /> : <FiMenu size={24} />}
+        {isOpen ? <VscClose size={24} /> : <VscMenu size={24} />}
       </button>
 
       {isOpen && (
@@ -42,24 +42,16 @@ export default function MobileMenu() {
           initial={{ opacity: 0, y: -10 }}
           animate={{ opacity: 1, y: 0 }}
           exit={{ opacity: 0, y: -10 }}
-          className="absolute top-12 left-0 w-[8rem] bg-white shadow-md p-4"
+          className="absolute top-12 left-0 w-[10rem] bg-white border-[1px] border-gray-100 shadow-md p-4 rounded-lg "
         >
-          <ul className="flex flex-col gap-4">
-            <li>
-              <Link
-                href="#home"
-                onClick={(e) => handleClick(e, "home")}
-                className="text-gray-800 hover:text-blue-600"
-              >
-                Início
-              </Link>
-            </li>
+          <ul className="flex flex-col gap-4 text-gray-600">
             <li>
               <Link
                 href="#benefits"
                 onClick={(e) => handleClick(e, "benefits")}
-                className="text-gray-800 hover:text-blue-600"
+                className=" hover:text-blue-600 flex gap-2 items-center"
               >
+                <VscGear size={20} />
                 Recursos
               </Link>
             </li>
@@ -67,9 +59,19 @@ export default function MobileMenu() {
               <Link
                 href="#feedback"
                 onClick={(e) => handleClick(e, "feedback")}
-                className="text-gray-800 hover:text-blue-600"
+                className=" hover:text-blue-600 flex gap-2 items-center"
               >
+                <VscFeedback size={20} />
                 Feedback
+              </Link>
+            </li>
+            <li>
+              <Link
+                href="/landing/suport/"
+                className=" hover:text-blue-600 flex gap-2 items-center"
+              >
+                <VscCallIncoming size={20} />
+                Suporte
               </Link>
             </li>
           </ul>

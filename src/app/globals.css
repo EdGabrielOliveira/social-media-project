@@ -13,7 +13,7 @@
     @apply pl-2 pr-2 hover:underline hover:underline-offset-4 rounded-xl p-1 cursor-pointer;
   }
   .input-field {
-    @apply p-2 pr-4 pl-4 w-[20rem] rounded-xl bg-gray-100 outline-none focus:outline-none shadow-md shadow-gray-200;
+    @apply p-2 pr-4 pl-4 md:w-[20rem] xs:w-full rounded-xl bg-gray-100 outline-none focus:outline-none shadow-md shadow-gray-200;
   }
   .button-call {
     @apply text-white font-semibold bg-green-600 rounded-lg hover:bg-green-700 p-2 pr-4 pl-4 cursor-pointer;

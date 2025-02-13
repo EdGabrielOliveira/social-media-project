@@ -35,7 +35,7 @@ export default function Footer() {
     <div className="flex flex-col justify-center items-center text-gray-500 md:pt-20 xs:pt-12 pb-8 w-full bg-white md:pr-72 md:pl-72 xs:pr-8 xs:pl-8">
       <div className="flex w-full justify-between items-center gap-8">
         <div className="flex justify-center items-center gap-8">
-          <Link href="/auth/register" className="button-call">
+          <Link href="/auth/register" className="button-call ">
             Cadastrar-se agora mesmo!
           </Link>
           <Link href="/auth/login" className="button-underline">
