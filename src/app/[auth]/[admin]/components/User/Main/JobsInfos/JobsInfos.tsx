@@ -1,12 +1,12 @@
 import React from "react";
 import OpenJobsList from "./OpenJobsList";
 
-import Face from "../../../image/logo/face.png";
-import Bmw from "../../../image/logo/bmw.png";
-import Afc from "../../../image/logo/afc.png";
-import Pepsi from "../../../image/logo/pepsi.png";
-import Pint from "../../../image/logo/pint.png";
-import Twitter from "../../../image/logo/twitter.png";
+import Face from "../../../image/logo/face.webp";
+import Bmw from "../../../image/logo/bmw.webp";
+import Afc from "../../../image/logo/afc.webp";
+import Pepsi from "../../../image/logo/pepsi.webp";
+import Pint from "../../../image/logo/pint.webp";
+import Twitter from "../../../image/logo/twitter.webp";
 
 export default function JobsInfos() {
   return (

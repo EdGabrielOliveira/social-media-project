@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Avatar from "@public/avatar.jpg";
+import Avatar from "@public/avatar.webp";
 
 import { VscBell, VscCommentDiscussion, VscHome, VscSearch } from "react-icons/vsc";
 import Link from "next/link";

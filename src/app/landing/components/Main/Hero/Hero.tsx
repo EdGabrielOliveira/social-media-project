@@ -1,6 +1,6 @@
 import React from "react";
-import HeroImage from "@public/hero.png";
-import HeroImageDark from "@public/herodark.png";
+import HeroImage from "@public/hero.webp";
+import HeroImageDark from "@public/herodark.webp";
 import Image from "next/image";
 import Link from "next/link";
 

@@ -2,14 +2,14 @@ import React from "react";
 import Menu from "./ItensMenu/Menu";
 import UsersMenu from "./ItensMenu/UsersMenu";
 
-import Avatar1 from "../../../image/avatar/avatar (1).jpeg";
-import Avatar2 from "../../../image/avatar/avatar (8).jpg";
-import Avatar3 from "../../../image/avatar/avatar (2).jpeg";
-import Avatar4 from "../../../image/avatar/avatar (3).jpeg";
-import Avatar5 from "../../../image/avatar/avatar (4).jpeg";
-import Avatar6 from "../../../image/avatar/avatar (5).jpeg";
-import Avatar7 from "../../../image/avatar/avatar (6).jpeg";
-import Avatar8 from "../../../image/avatar/avatar (7).jpeg";
+import Avatar1 from "../../../image/avatar/avatar (1).webp";
+import Avatar2 from "../../../image/avatar/avatar (8).webp";
+import Avatar3 from "../../../image/avatar/avatar (2).webp";
+import Avatar4 from "../../../image/avatar/avatar (3).webp";
+import Avatar5 from "../../../image/avatar/avatar (4).webp";
+import Avatar6 from "../../../image/avatar/avatar (5).webp";
+import Avatar7 from "../../../image/avatar/avatar (6).webp";
+import Avatar8 from "../../../image/avatar/avatar (7).webp";
 
 export default function LateralMenu() {
   return (

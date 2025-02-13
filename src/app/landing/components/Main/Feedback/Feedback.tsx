@@ -1,6 +1,6 @@
 import React from "react";
 
-import Avatar from "@public/avatar.jpg";
+import Avatar from "@public/avatar.webp";
 import UserFeedback from "./UserFeedback";
 
 export default function Feedback() {

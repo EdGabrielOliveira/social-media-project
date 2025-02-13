@@ -1,6 +1,6 @@
 import React from "react";
 
-import Avatar from "@public/avatar.jpg";
+import Avatar from "@public/avatar.webp";
 import Post from "@public/post.webp";
 import UserPost from "./components/UserPost";
 import SendPost from "./components/SendPost";
