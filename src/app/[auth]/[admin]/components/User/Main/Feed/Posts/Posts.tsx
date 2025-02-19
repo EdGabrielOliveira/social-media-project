@@ -15,18 +15,18 @@ export default function Posts() {
             <Status />
           </div>
           <SendPost />
-          {[...Array(1)].map((_, index) => (
+          {[...Array(6)].map((_, index) => (
             <UserPost
               key={index}
               verified={true}
               name={"Pedro Henrique"}
-              user={"pedin3vez"}
+              user={"phoficial_"}
               avatar={Avatar}
               postImg={Post}
               bio={"Influenciado Digital"}
               time={"4 dias"}
               comment={
-                "Comentario desse post sobre extraterreste pedinho cabeça de post 3 mil um bilhão de vez"
+                "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus efficitur auctor turpis, id auctor purus faucibus et. Nullam fermentum aliquet gravida. Vestibulum quis consequat justo. Proin nec turpis eros. Integer iaculis nec urna quis mattis. Morbi egestas tristique massa a placerat. In hac habitasse platea dictumst. Vestibulum accumsan felis non erat consectetur, id condimentum sapien venenatis. Aenean posuere blandit dolor, sed sodales tellus."
               }
             />
           ))}
