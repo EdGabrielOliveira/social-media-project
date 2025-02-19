@@ -19,7 +19,7 @@ export default function page() {
         <div className="flex flex-col w-full">
           <div className="xs:flex sm:hidden"></div>
           <Header />
-          <div className="flexflex-row">
+          <div className="flex flex-row">
             <Main />
             <div className="md:flex xs:hidden">
               <JobsInfos />
