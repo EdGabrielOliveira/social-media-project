@@ -34,4 +34,6 @@ Caso queira explorar o código ou utilizá-lo como base para seus próprios proj
 ![screencapture-social-media-project-weld-vercel-app-2025-02-24-15_30_59](https://github.com/user-attachments/assets/ab7cb68f-63f0-4d73-ba7d-a77f87012e74)
 ![Captura de tela 2025-02-24 153146](https://github.com/user-attachments/assets/d0c0a80f-cc5d-4b0e-9034-64897cbb0771)
 ![Captura de tela 2025-02-24 153155](https://github.com/user-attachments/assets/d9dc8103-b8c5-433c-801a-590fd5d6160a)
+![Uploading Captura de tela 2025-02-24 153311.png…]()
+
 
