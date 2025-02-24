@@ -12,6 +12,7 @@ Este template foi projetado para ilustrar uma plataforma UGC, contendo:
 
 - **Responsivo**
 - **Telas de Entrar e Cadastre-se**
+**Modo escuro no Feed**
 
 ## 🛠 Tecnologias Utilizadas
 
@@ -35,6 +36,4 @@ Caso queira explorar o código ou utilizá-lo como base para seus próprios proj
 ![Captura de tela 2025-02-24 153146](https://github.com/user-attachments/assets/d0c0a80f-cc5d-4b0e-9034-64897cbb0771)
 ![Captura de tela 2025-02-24 153155](https://github.com/user-attachments/assets/d9dc8103-b8c5-433c-801a-590fd5d6160a)
 ![Captura de tela 2025-02-24 153311](https://github.com/user-attachments/assets/ccc2fd83-5f23-4f8f-9b43-84c8ec6c26d7)
-
-
-
+![Captura de tela 2025-02-24 155147](https://github.com/user-attachments/assets/4f80ab26-c546-4b87-a453-bcf537dbbb80)
