@@ -1,36 +1,30 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# MarketMates – Template de Plataforma UGC
 
-## Getting Started
+MarketMates é um **template** criado para servir de base para o desenvolvimento de plataformas UGC (User-Generated Content), 
+onde empresas e criadores de conteúdo podem interagir para campanhas de marketing.
+Este template **não será desenvolvido além do estado atual** e pode ser utilizado como referência para novos projetos.
 
-First, run the development server:
+Veja aqui: https://social-media-project-weld.vercel.app/
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 📌 Sobre o Template
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Este template foi projetado para ilustrar uma plataforma UGC, contendo:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Responsivo**
+- **Telas de Entrar e Cadastre-se**
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🛠 Tecnologias Utilizadas
 
-## Learn More
+O template foi construído utilizando:
 
-To learn more about Next.js, take a look at the following resources:
+- **Next.js** – Para um front-end rápido e escalável.
+- **TypeScript** – Para maior segurança no desenvolvimento.
+- **Tailwind CSS** – Para estilização e responsividade.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📂 Como Utilizar o Template
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Caso queira explorar o código ou utilizá-lo como base para seus próprios projetos:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/seu-usuario/marketmates-template.git
